@@ -1,0 +1,70 @@
+.container{
+    border: 3px solid green;
+    background-color: rgb(180, 209, 180);
+    padding: 15px;
+    margin: 30px;
+    max: width 900px;
+}
+.header,.footer{
+    background-color: lightskyblue;
+    border: 3px solid blue;
+    display: flex;
+    gap: .5rem;
+}
+.header{
+    padding: 15px;
+}
+.first,.second,.third{
+    background-color: burlywood;
+    border:3px solid lightsalmon;
+    height: 48px;
+    display: flex;
+    flex:1;
+    padding: 3px;
+}
+.second div{
+    background-color: rgb(238, 158, 202);
+    border: 3px solid red;
+    flex: 1;
+}
+.content{
+    display: flex;
+    margin-top: 15px;
+    gap: 10px;
+}
+.left{
+    background-color: lightpink;
+    border: 3px solid maroon;
+    height: 150px;
+    flex:1;
+}
+.right{
+    height: 150px;
+    flex:1;
+}
+.one,.two{
+    background-color: lightpink;
+    border: 3px solid maroon;
+    height: 66px;
+}
+.two{
+    margin-top: 12px;
+}
+.footer{
+    padding: 10px;
+    margin-top: 15px;
+}
+.f1,.f4{
+    background-color: lightgray;
+    border: 3px solid rgb(101, 101, 150);
+    display: flex;
+    height:48px;
+    flex: 2;
+}
+.f2,.f3{
+    background-color: burlywood;
+    border:3px solid lightsalmon;
+    display: flex;
+    flex:1;
+    height: 48px;
+}
